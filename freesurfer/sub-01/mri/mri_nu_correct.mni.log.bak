@@ -1,0 +1,24 @@
+/Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/mri
+/Applications/freesurfer/7.4.1/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+FreeSurferEnv.csh 7.4.1
+Darwin Martins-Mac-Studio.local 24.4.0 Darwin Kernel Version 24.4.0: Wed Mar 19 21:16:34 PDT 2025; root:xnu-11417.101.15~1/RELEASE_ARM64_T6000 x86_64
+Wed May 21 12:54:22 CEST 2025
+tmpdir is ./tmp.mri_nu_correct.mni.54373
+cd /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.54373/nu0.mgz --dtype uchar
+AntsN4BiasFieldCorrectionFs done
+mri_convert ./tmp.mri_nu_correct.mni.54373/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.54373/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from ./tmp.mri_nu_correct.mni.54373/nu0.mgz...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+Wed May 21 12:56:49 CEST 2025
+mri_nu_correct.mni done
