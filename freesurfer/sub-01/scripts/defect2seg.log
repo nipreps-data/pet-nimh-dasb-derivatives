@@ -1,0 +1,49 @@
+Log file for defect2seg
+Wed May 21 22:06:03 CEST 2025
+
+setenv SUBJECTS_DIR /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer
+cd /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/scripts
+/Applications/freesurfer/7.4.1/bin/defect2seg --s sub-01 --rh-only --cortex
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+defect2seg 7.4.1
+Darwin Martins-Mac-Studio.local 24.4.0 Darwin Kernel Version 24.4.0: Wed Mar 19 21:16:34 PDT 2025; root:xnu-11417.101.15~1/RELEASE_ARM64_T6000 x86_64
+pid 18473
+mri_label2label --label-cortex /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.orig.nofix /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/mri/aseg.presurf.mgz 0 /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/label/rh.nofix.cortex.label
+
+ Generating cortex label... RemoveHipAmgy=0
+ NucAccIsMedialWall=0
+ mris->useRealRAS=0
+12 non-cortical segments detected
+only using segment with 7961 vertices
+erasing segment 0 (vno[0] = 25826)
+erasing segment 1 (vno[0] = 26802)
+erasing segment 3 (vno[0] = 50709)
+erasing segment 4 (vno[0] = 57188)
+erasing segment 5 (vno[0] = 61552)
+erasing segment 6 (vno[0] = 62620)
+erasing segment 7 (vno[0] = 72639)
+erasing segment 8 (vno[0] = 80782)
+erasing segment 9 (vno[0] = 81319)
+erasing segment 10 (vno[0] = 94460)
+erasing segment 11 (vno[0] = 98518)
+mri_label2vol --defects /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.orig.nofix /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.defect_labels /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/mri/orig.mgz 2000 0 /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/mri/rh.surface.defects.mgz /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/label/rh.nofix.cortex.label
+ supposed to be reproducible but seed not set
+Contraining to label /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/label/rh.nofix.cortex.label
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=2000, merge=0
+Writing to /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/mri/rh.surface.defects.mgz
+mris_defects_pointset -s /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.orig.nofix -d /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.defect_labels -o /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.defects.pointset --label /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/label/rh.nofix.cortex.label
+Reading in surface /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.orig.nofix
+Reading in defect segmentation /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/surf/rh.defect_labels
+Reading in label /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/label/rh.nofix.cortex.label
+#VMPC# mris_defects_pointset 0
+mris_defects_pointset done
+ 
+Started at Wed May 21 22:06:02 CEST 2025 
+Ended   at Wed May 21 22:06:25 CEST 2025
+Defect2seg-Run-Time-Sec 23
+Defect2seg-Run-Time-Min 0.46
+Defect2seg-Run-Time-Hours 0.01
+ 
+defect2seg Done

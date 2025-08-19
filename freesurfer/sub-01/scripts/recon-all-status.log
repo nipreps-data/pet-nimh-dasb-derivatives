@@ -1,0 +1,76 @@
+status file for recon-all
+Wed May 21 12:54:07 CEST 2025
+#@# MotionCor Wed May 21 12:54:11 CEST 2025
+#@# Talairach Wed May 21 12:54:20 CEST 2025
+#@# Talairach Failure Detection Wed May 21 12:57:37 CEST 2025
+#@# Nu Intensity Correction Wed May 21 12:57:38 CEST 2025
+#@# Intensity Normalization Wed May 21 13:00:30 CEST 2025
+recon-all -s sub-01 finished without error at Wed May 21 13:03:40 CEST 2025
+\n\n
+#New# invocation of recon-all 
+\n\n
+status file for recon-all
+Wed May 21 16:42:10 CEST 2025
+#@# EM Registration Wed May 21 16:42:10 CEST 2025
+recon-all -s sub-01 finished without error at Wed May 21 16:52:40 CEST 2025
+\n\n
+#New# invocation of recon-all 
+\n\n
+status file for recon-all
+Wed May 21 17:06:03 CEST 2025
+#@# CA Normalize Wed May 21 17:06:03 CEST 2025
+#@# CA Reg Wed May 21 17:07:02 CEST 2025
+#@# SubCort Seg Wed May 21 18:47:05 CEST 2025
+#@# CC Seg Wed May 21 19:14:40 CEST 2025
+#@# Merge ASeg Wed May 21 19:15:19 CEST 2025
+#@# Intensity Normalization2 Wed May 21 19:15:20 CEST 2025
+#@# Mask BFS Wed May 21 19:18:28 CEST 2025
+#@# WM Segmentation Wed May 21 19:18:30 CEST 2025
+#@# Fill Wed May 21 19:20:44 CEST 2025
+recon-all -s sub-01 finished without error at Wed May 21 19:22:04 CEST 2025
+\n\n
+#New# invocation of recon-all 
+\n\n
+status file for recon-all
+Wed May 21 22:46:31 CEST 2025
+#@# white curv lh Wed May 21 22:46:31 CEST 2025
+#@# white area lh Wed May 21 22:46:31 CEST 2025
+#@# pial curv lh Wed May 21 22:46:32 CEST 2025
+#@# pial area lh Wed May 21 22:46:32 CEST 2025
+#@# thickness lh Wed May 21 22:46:33 CEST 2025
+#@# area and vertex vol lh Wed May 21 22:46:33 CEST 2025
+#@# white curv rh Wed May 21 22:46:33 CEST 2025
+#@# white area rh Wed May 21 22:46:34 CEST 2025
+#@# pial curv rh Wed May 21 22:46:34 CEST 2025
+#@# pial area rh Wed May 21 22:46:34 CEST 2025
+#@# thickness rh Wed May 21 22:46:34 CEST 2025
+#@# area and vertex vol rh Wed May 21 22:46:35 CEST 2025
+#@# Cortical ribbon mask Wed May 21 22:46:35 CEST 2025
+recon-all -s sub-01 finished without error at Wed May 21 22:56:21 CEST 2025
+\n\n
+#New# invocation of recon-all 
+\n\n
+status file for recon-all
+Thu May 22 00:17:41 CEST 2025
+#@# white curv lh Thu May 22 00:17:43 CEST 2025
+#@# white area lh Thu May 22 00:17:44 CEST 2025
+#@# pial curv lh Thu May 22 00:17:44 CEST 2025
+#@# pial area lh Thu May 22 00:17:45 CEST 2025
+#@# thickness lh Thu May 22 00:17:45 CEST 2025
+#@# area and vertex vol lh Thu May 22 00:17:46 CEST 2025
+#@# white curv rh Thu May 22 00:17:47 CEST 2025
+#@# white area rh Thu May 22 00:17:47 CEST 2025
+#@# pial curv rh Thu May 22 00:17:48 CEST 2025
+#@# pial area rh Thu May 22 00:17:49 CEST 2025
+#@# thickness rh Thu May 22 00:17:49 CEST 2025
+#@# area and vertex vol rh Thu May 22 00:17:50 CEST 2025
+#@# Curvature Stats lh Thu May 22 00:17:51 CEST 2025
+#@# Curvature Stats rh Thu May 22 00:18:03 CEST 2025
+#@# Relabel Hypointensities Thu May 22 00:18:22 CEST 2025
+#@# APas-to-ASeg Thu May 22 00:19:19 CEST 2025
+#@# AParc-to-ASeg aparc Thu May 22 00:20:06 CEST 2025
+#@# AParc-to-ASeg aparc.a2009s Thu May 22 00:26:01 CEST 2025
+#@# AParc-to-ASeg aparc.DKTatlas Thu May 22 00:33:19 CEST 2025
+#@# WMParc Thu May 22 00:40:03 CEST 2025
+#@# ASeg Stats Thu May 22 01:06:06 CEST 2025
+recon-all -s sub-01 finished without error at Thu May 22 01:18:02 CEST 2025

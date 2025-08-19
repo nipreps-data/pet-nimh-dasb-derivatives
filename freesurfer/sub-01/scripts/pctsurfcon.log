@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Wed May 21 22:46:15 CEST 2025
+setenv SUBJECTS_DIR /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer
+cd /Users/martinnorgaard/Downloads/20M0157_MDD_COX1_COX2_BIDS/derivatives/freesurfer/sub-01/scripts
+/Applications/freesurfer/7.4.1/bin/pctsurfcon
+FreeSurferEnv.csh 7.4.1
+Darwin Martins-Mac-Studio.local 24.4.0 Darwin Kernel Version 24.4.0: Wed Mar 19 21:16:34 PDT 2025; root:xnu-11417.101.15~1/RELEASE_ARM64_T6000 x86_64
+FREESURFER_HOME /Applications/freesurfer/7.4.1
+Cleaning up

@@ -1,0 +1,42 @@
+status file for recon-all
+Wed May 21 21:59:56 CEST 2025
+#@# Tessellate lh Wed May 21 21:59:56 CEST 2025
+#@# Smooth1 lh Wed May 21 22:00:02 CEST 2025
+#@# Inflation1 lh Wed May 21 22:00:05 CEST 2025
+#@# QSphere lh Wed May 21 22:00:22 CEST 2025
+#@# Fix Topology lh Wed May 21 22:02:22 CEST 2025
+#@# Smooth2 lh Wed May 21 22:07:49 CEST 2025
+#@# Inflation2 lh Wed May 21 22:07:52 CEST 2025
+#@# Curv .H and .K lh Wed May 21 22:08:13 CEST 2025
+#@# Sphere lh Wed May 21 22:08:55 CEST 2025
+#@# Surf Reg lh Wed May 21 22:16:34 CEST 2025
+#@# Jacobian white lh Wed May 21 22:30:16 CEST 2025
+#@# AvgCurv lh Wed May 21 22:30:17 CEST 2025
+#@# Cortical Parc lh Wed May 21 22:30:19 CEST 2025
+#@# white curv lh Wed May 21 22:37:44 CEST 2025
+#@# white area lh Wed May 21 22:37:47 CEST 2025
+#@# pial curv lh Wed May 21 22:37:48 CEST 2025
+#@# pial area lh Wed May 21 22:37:51 CEST 2025
+#@# thickness lh Wed May 21 22:37:53 CEST 2025
+#@# area and vertex vol lh Wed May 21 22:38:28 CEST 2025
+#@# Curvature Stats lh Wed May 21 22:38:31 CEST 2025
+#@# Cortical Parc 2 lh Wed May 21 22:38:36 CEST 2025
+#@# Cortical Parc 3 lh Wed May 21 22:38:52 CEST 2025
+#@# WM/GM Contrast lh Wed May 21 22:39:08 CEST 2025
+recon-all -s sub-01 finished without error at Wed May 21 22:39:14 CEST 2025
+\n\n
+#New# invocation of recon-all 
+\n\n
+status file for recon-all
+Thu May 22 00:04:14 CEST 2025
+#@# white curv lh Thu May 22 00:04:17 CEST 2025
+#@# white area lh Thu May 22 00:04:17 CEST 2025
+#@# pial curv lh Thu May 22 00:04:18 CEST 2025
+#@# pial area lh Thu May 22 00:04:18 CEST 2025
+#@# thickness lh Thu May 22 00:04:19 CEST 2025
+#@# area and vertex vol lh Thu May 22 00:04:19 CEST 2025
+#@# Parcellation Stats lh Thu May 22 00:04:20 CEST 2025
+#@# Parcellation Stats 2 lh Thu May 22 00:05:05 CEST 2025
+#@# Parcellation Stats 3 lh Thu May 22 00:05:30 CEST 2025
+#@# BA_exvivo Labels lh Thu May 22 00:05:53 CEST 2025
+recon-all -s sub-01 finished without error at Thu May 22 00:14:38 CEST 2025

@@ -1,0 +1,766 @@
+Log file for xcerebralseg
+Mon Jul 14 13:16:35 CEST 2025
+
+setenv SUBJECTS_DIR /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/xcerebralseg --s sub-01
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+FreeSurferEnv.csh 7.4.1
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_ca_label -align -nobigventricles /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/transforms/talairach.m3z /Applications/freesurfer/7.4.1/average/aseg+spmhead+vermis+pons.ixi.gca /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+
+setenv SUBJECTS_DIR /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+mri_ca_label -align -nobigventricles /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/transforms/talairach.m3z /Applications/freesurfer/7.4.1/average/aseg+spmhead+vermis+pons.ixi.gca /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh 
+
+renormalizing sequences with structure alignment, equivalent to:
+	-renormalize
+	-renormalize_mean 0.500
+	-regularize 0.500
+not handling expanded ventricles...
+Do not have OpenMP
+reading 1 input volumes
+reading classifier array from /Applications/freesurfer/7.4.1/average/aseg+spmhead+vermis+pons.ixi.gca
+reading input volume from /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz
+average std[0] = 20.4
+reading transform from /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/transforms/talairach.m3z
+setting orig areas to linear transform determinant scaled 5.44
+Atlas used for the 3D morph was /Applications/freesurfer/7.4.1/average/RB_all_2020-01-02.gca
+average std = 20.4   using min determinant for regularization = 41.8
+0 singular and 0 ill-conditioned covariance matrices regularized
+labeling volume...
+renormalizing by structure alignment....
+renormalizing input #0
+gca peak = 0.24861 (36)
+mri peak = 0.21915 (24)
+Left_Lateral_Ventricle (4): linear fit = 0.63 x + 0.0 (861 voxels, overlap=0.005)
+Left_Lateral_Ventricle (4): linear fit = 0.63 x + 0.0 (861 voxels, peak = 23), gca=22.9
+gca peak = 0.29857 (37)
+mri peak = 0.15497 (25)
+Right_Lateral_Ventricle (43): linear fit = 0.65 x + 0.0 (565 voxels, overlap=0.007)
+Right_Lateral_Ventricle (43): linear fit = 0.65 x + 0.0 (565 voxels, peak = 24), gca=24.2
+gca peak = 0.94219 (108)
+mri peak = 0.16133 (107)
+Right_Pallidum (52): linear fit = 0.99 x + 0.0 (387 voxels, overlap=1.028)
+Right_Pallidum (52): linear fit = 0.99 x + 0.0 (387 voxels, peak = 106), gca=106.4
+gca peak = 0.53160 (105)
+mri peak = 0.14987 (105)
+Left_Pallidum (13): linear fit = 1.00 x + 0.0 (387 voxels, overlap=1.028)
+Left_Pallidum (13): linear fit = 1.00 x + 0.0 (387 voxels, peak = 104), gca=104.5
+gca peak = 0.29818 (86)
+mri peak = 0.11057 (76)
+Right_Hippocampus (53): linear fit = 0.93 x + 0.0 (1067 voxels, overlap=0.569)
+Right_Hippocampus (53): linear fit = 0.93 x + 0.0 (1067 voxels, peak = 80), gca=79.6
+gca peak = 0.51707 (84)
+mri peak = 0.10674 (78)
+Left_Hippocampus (17): linear fit = 0.90 x + 0.0 (921 voxels, overlap=0.531)
+Left_Hippocampus (17): linear fit = 0.90 x + 0.0 (921 voxels, peak = 76), gca=76.0
+gca peak = 0.11572 (108)
+mri peak = 0.17894 (110)
+Right_Cerebral_White_Matter (41): linear fit = 1.03 x + 0.0 (62149 voxels, overlap=0.528)
+Right_Cerebral_White_Matter (41): linear fit = 1.03 x + 0.0 (62149 voxels, peak = 112), gca=111.8
+gca peak = 0.12550 (107)
+mri peak = 0.18351 (112)
+Left_Cerebral_White_Matter (2): linear fit = 1.04 x + 0.0 (60993 voxels, overlap=0.501)
+Left_Cerebral_White_Matter (2): linear fit = 1.04 x + 0.0 (60993 voxels, peak = 112), gca=111.8
+gca peak = 0.13594 (79)
+mri peak = 0.07530 (72)
+Left_Cerebral_Cortex (3): linear fit = 0.88 x + 0.0 (17055 voxels, overlap=0.261)
+Left_Cerebral_Cortex (3): linear fit = 0.88 x + 0.0 (17055 voxels, peak = 70), gca=69.9
+gca peak = 0.14160 (79)
+mri peak = 0.07088 (69)
+Right_Cerebral_Cortex (42): linear fit = 0.88 x + 0.0 (17941 voxels, overlap=0.258)
+Right_Cerebral_Cortex (42): linear fit = 0.88 x + 0.0 (17941 voxels, peak = 70), gca=69.9
+gca peak = 0.44729 (91)
+mri peak = 0.17397 (85)
+Right_Caudate (50): linear fit = 0.94 x + 0.0 (829 voxels, overlap=0.616)
+Right_Caudate (50): linear fit = 0.94 x + 0.0 (829 voxels, peak = 86), gca=86.0
+gca peak = 0.56906 (92)
+mri peak = 0.15426 (85)
+Left_Caudate (11): linear fit = 0.92 x + 0.0 (933 voxels, overlap=0.074)
+Left_Caudate (11): linear fit = 0.92 x + 0.0 (933 voxels, peak = 84), gca=84.2
+gca peak = 0.09134 (83)
+mri peak = 0.05626 (78)
+Left_Cerebellum_Cortex (8): linear fit = 0.93 x + 0.0 (14170 voxels, overlap=0.530)
+Left_Cerebellum_Cortex (8): linear fit = 0.93 x + 0.0 (14170 voxels, peak = 77), gca=76.8
+gca peak = 0.08707 (81)
+mri peak = 0.05735 (76)
+Right_Cerebellum_Cortex (47): linear fit = 0.93 x + 0.0 (13371 voxels, overlap=0.441)
+Right_Cerebellum_Cortex (47): linear fit = 0.93 x + 0.0 (13371 voxels, peak = 75), gca=74.9
+gca peak = 0.18417 (104)
+mri peak = 0.14621 (110)
+Left_Cerebellum_White_Matter (7): linear fit = 1.05 x + 0.0 (5727 voxels, overlap=0.201)
+Left_Cerebellum_White_Matter (7): linear fit = 1.05 x + 0.0 (5727 voxels, peak = 110), gca=109.7
+gca peak = 0.23199 (105)
+mri peak = 0.14855 (110)
+Right_Cerebellum_White_Matter (46): linear fit = 1.05 x + 0.0 (5224 voxels, overlap=0.524)
+Right_Cerebellum_White_Matter (46): linear fit = 1.05 x + 0.0 (5224 voxels, peak = 111), gca=110.8
+gca peak = 0.39551 (85)
+mri peak = 0.16252 (81)
+Left_Amygdala (18): linear fit = 0.94 x + 0.0 (540 voxels, overlap=1.035)
+Left_Amygdala (18): linear fit = 0.94 x + 0.0 (540 voxels, peak = 80), gca=80.3
+gca peak = 0.40047 (85)
+mri peak = 0.13134 (81)
+Right_Amygdala (54): linear fit = 0.93 x + 0.0 (443 voxels, overlap=1.036)
+Right_Amygdala (54): linear fit = 0.93 x + 0.0 (443 voxels, peak = 79), gca=78.6
+gca peak = 0.14337 (103)
+mri peak = 0.08842 (101)
+Left_Thalamus (10): linear fit = 0.96 x + 0.0 (4083 voxels, overlap=0.850)
+Left_Thalamus (10): linear fit = 0.96 x + 0.0 (4083 voxels, peak = 99), gca=99.4
+gca peak = 0.15911 (103)
+mri peak = 0.10430 (101)
+Right_Thalamus (49): linear fit = 0.99 x + 0.0 (3546 voxels, overlap=0.952)
+Right_Thalamus (49): linear fit = 0.99 x + 0.0 (3546 voxels, peak = 101), gca=101.5
+gca peak = 0.12855 (93)
+mri peak = 0.11057 (96)
+Left_Putamen (12): linear fit = 0.96 x + 0.0 (2515 voxels, overlap=0.826)
+Left_Putamen (12): linear fit = 0.96 x + 0.0 (2515 voxels, peak = 90), gca=89.7
+gca peak = 0.13191 (95)
+mri peak = 0.10142 (96)
+Right_Putamen (51): linear fit = 0.96 x + 0.0 (2513 voxels, overlap=0.806)
+Right_Putamen (51): linear fit = 0.96 x + 0.0 (2513 voxels, peak = 92), gca=91.7
+gca peak = 0.34872 (102)
+mri peak = 0.12578 (105)
+Brain_Stem (16): linear fit = 1.03 x + 0.0 (5116 voxels, overlap=0.843)
+Brain_Stem (16): linear fit = 1.03 x + 0.0 (5116 voxels, peak = 106), gca=105.6
+gca peak = 0.24156 (107)
+mri peak = 0.13881 (110)
+Right_VentralDC (60): linear fit = 1.00 x + 0.0 (1437 voxels, overlap=0.897)
+Right_VentralDC (60): linear fit = 1.00 x + 0.0 (1437 voxels, peak = 108), gca=107.5
+gca peak = 0.19573 (107)
+mri peak = 0.12091 (109)
+Left_VentralDC (28): linear fit = 1.00 x + 0.0 (1445 voxels, overlap=0.952)
+Left_VentralDC (28): linear fit = 1.00 x + 0.0 (1445 voxels, peak = 108), gca=107.5
+gca peak = 0.42363 (50)
+mri peak = 1.00000 (27)
+gca peak = 0.34418 (40)
+mri peak = 0.14334 (27)
+Fourth_Ventricle (15): linear fit = 0.56 x + 0.0 (138 voxels, overlap=0.026)
+Fourth_Ventricle (15): linear fit = 0.56 x + 0.0 (138 voxels, peak = 23), gca=22.6
+gca peak Unknown = 1.00000 ( 0)
+gca peak Left_Inf_Lat_Vent = 0.52654 (51)
+gca peak Third_Ventricle = 0.42363 (50)
+gca peak Fourth_Ventricle = 0.34418 (40)
+gca peak CSF = 0.28546 (57)
+gca peak Left_Accumbens_area = 0.78299 (92)
+gca peak Left_vessel = 0.92095 (72)
+gca peak Left_choroid_plexus = 0.16464 (56)
+gca peak Right_Inf_Lat_Vent = 0.86099 (49)
+gca peak Right_Accumbens_area = 0.67115 (94)
+gca peak Right_vessel = 0.81418 (74)
+gca peak Right_choroid_plexus = 0.17128 (58)
+gca peak Fifth_Ventricle = 1.00000 (62)
+gca peak WM_hypointensities = 0.32749 (79)
+gca peak non_WM_hypointensities = 0.17249 (59)
+gca peak Optic_Chiasm = 0.77564 (85)
+gca peak Air = 0.62365 ( 2)
+gca peak  = 0.04778 (23)
+gca peak  = 0.17873 (77)
+gca peak  = 0.19213 (104)
+gca peak CC_Posterior = 0.70026 (113)
+gca peak CC_Mid_Posterior = 0.69090 (107)
+gca peak CC_Central = 0.89754 (108)
+gca peak CC_Mid_Anterior = 0.58555 (109)
+gca peak CC_Anterior = 0.23011 (113)
+gca peak  = 0.08554 (44)
+gca peak  = 0.02810 (91)
+not using caudate to estimate GM means
+estimating mean gm scale to be 0.91 x + 0.0
+estimating mean wm scale to be 1.04 x + 0.0
+estimating mean csf scale to be 0.64 x + 0.0
+saving intensity scales to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.label_intensities.txt
+renormalizing by structure alignment....
+renormalizing input #0
+gca peak = 0.32119 (23)
+mri peak = 0.21915 (24)
+Left_Lateral_Ventricle (4): linear fit = 0.99 x + 0.0 (861 voxels, overlap=0.962)
+Left_Lateral_Ventricle (4): linear fit = 0.99 x + 0.0 (861 voxels, peak = 23), gca=22.7
+gca peak = 0.38125 (24)
+mri peak = 0.15497 (25)
+Right_Lateral_Ventricle (43): linear fit = 1.01 x + 0.0 (565 voxels, overlap=0.936)
+Right_Lateral_Ventricle (43): linear fit = 1.01 x + 0.0 (565 voxels, peak = 24), gca=24.4
+gca peak = 0.55966 (106)
+mri peak = 0.16133 (107)
+Right_Pallidum (52): linear fit = 1.01 x + 0.0 (387 voxels, overlap=1.011)
+Right_Pallidum (52): linear fit = 1.01 x + 0.0 (387 voxels, peak = 108), gca=107.6
+gca peak = 0.77670 (105)
+mri peak = 0.14987 (105)
+Left_Pallidum (13): linear fit = 1.02 x + 0.0 (387 voxels, overlap=1.014)
+Left_Pallidum (13): linear fit = 1.02 x + 0.0 (387 voxels, peak = 108), gca=107.6
+gca peak = 0.35741 (78)
+mri peak = 0.11057 (76)
+Right_Hippocampus (53): linear fit = 0.96 x + 0.0 (1067 voxels, overlap=1.011)
+Right_Hippocampus (53): linear fit = 0.96 x + 0.0 (1067 voxels, peak = 75), gca=75.3
+gca peak = 0.55658 (76)
+mri peak = 0.10674 (78)
+Left_Hippocampus (17): linear fit = 0.99 x + 0.0 (921 voxels, overlap=1.007)
+Left_Hippocampus (17): linear fit = 0.99 x + 0.0 (921 voxels, peak = 75), gca=74.9
+gca peak = 0.11441 (111)
+mri peak = 0.17894 (110)
+Right_Cerebral_White_Matter (41): linear fit = 1.00 x + 0.0 (62149 voxels, overlap=0.776)
+Right_Cerebral_White_Matter (41): linear fit = 1.00 x + 0.0 (62149 voxels, peak = 111), gca=111.0
+gca peak = 0.11783 (112)
+mri peak = 0.18351 (112)
+Left_Cerebral_White_Matter (2): linear fit = 1.00 x + 0.0 (60993 voxels, overlap=0.811)
+Left_Cerebral_White_Matter (2): linear fit = 1.00 x + 0.0 (60993 voxels, peak = 112), gca=112.0
+gca peak = 0.15633 (70)
+mri peak = 0.07530 (72)
+Left_Cerebral_Cortex (3): linear fit = 1.00 x + 0.0 (17055 voxels, overlap=0.982)
+Left_Cerebral_Cortex (3): linear fit = 1.00 x + 0.0 (17055 voxels, peak = 70), gca=70.0
+gca peak = 0.15873 (70)
+mri peak = 0.07088 (69)
+Right_Cerebral_Cortex (42): linear fit = 0.99 x + 0.0 (17941 voxels, overlap=0.965)
+Right_Cerebral_Cortex (42): linear fit = 0.99 x + 0.0 (17941 voxels, peak = 69), gca=69.0
+gca peak = 0.46560 (86)
+mri peak = 0.17397 (85)
+Right_Caudate (50): linear fit = 0.98 x + 0.0 (829 voxels, overlap=0.983)
+Right_Caudate (50): linear fit = 0.98 x + 0.0 (829 voxels, peak = 84), gca=83.8
+gca peak = 0.50963 (84)
+mri peak = 0.15426 (85)
+Left_Caudate (11): linear fit = 1.00 x + 0.0 (933 voxels, overlap=1.006)
+Left_Caudate (11): linear fit = 1.00 x + 0.0 (933 voxels, peak = 84), gca=84.0
+gca peak = 0.10562 (77)
+mri peak = 0.05626 (78)
+Left_Cerebellum_Cortex (8): linear fit = 1.00 x + 0.0 (14170 voxels, overlap=0.663)
+Left_Cerebellum_Cortex (8): linear fit = 1.00 x + 0.0 (14170 voxels, peak = 77), gca=76.6
+gca peak = 0.09682 (75)
+mri peak = 0.05735 (76)
+Right_Cerebellum_Cortex (47): linear fit = 0.98 x + 0.0 (13371 voxels, overlap=0.653)
+Right_Cerebellum_Cortex (47): linear fit = 0.98 x + 0.0 (13371 voxels, peak = 73), gca=73.1
+gca peak = 0.19875 (109)
+mri peak = 0.14621 (110)
+Left_Cerebellum_White_Matter (7): linear fit = 1.01 x + 0.0 (5727 voxels, overlap=0.832)
+Left_Cerebellum_White_Matter (7): linear fit = 1.01 x + 0.0 (5727 voxels, peak = 111), gca=110.6
+gca peak = 0.19463 (111)
+mri peak = 0.14855 (110)
+Right_Cerebellum_White_Matter (46): linear fit = 1.00 x + 0.0 (5224 voxels, overlap=0.882)
+Right_Cerebellum_White_Matter (46): linear fit = 1.00 x + 0.0 (5224 voxels, peak = 112), gca=111.6
+gca peak = 0.41595 (80)
+mri peak = 0.16252 (81)
+Left_Amygdala (18): linear fit = 1.00 x + 0.0 (540 voxels, overlap=1.018)
+Left_Amygdala (18): linear fit = 1.00 x + 0.0 (540 voxels, peak = 80), gca=80.0
+gca peak = 0.35554 (80)
+mri peak = 0.13134 (81)
+Right_Amygdala (54): linear fit = 1.04 x + 0.0 (443 voxels, overlap=1.036)
+Right_Amygdala (54): linear fit = 1.04 x + 0.0 (443 voxels, peak = 84), gca=83.6
+gca peak = 0.14367 (100)
+mri peak = 0.08842 (101)
+Left_Thalamus (10): linear fit = 1.01 x + 0.0 (4083 voxels, overlap=0.959)
+Left_Thalamus (10): linear fit = 1.01 x + 0.0 (4083 voxels, peak = 102), gca=101.5
+gca peak = 0.15436 (102)
+mri peak = 0.10430 (101)
+Right_Thalamus (49): linear fit = 1.00 x + 0.0 (3546 voxels, overlap=1.000)
+Right_Thalamus (49): linear fit = 1.00 x + 0.0 (3546 voxels, peak = 102), gca=102.0
+gca peak = 0.17089 (90)
+mri peak = 0.11057 (96)
+Left_Putamen (12): linear fit = 0.99 x + 0.0 (2515 voxels, overlap=0.997)
+Left_Putamen (12): linear fit = 0.99 x + 0.0 (2515 voxels, peak = 89), gca=88.7
+gca peak = 0.15525 (91)
+mri peak = 0.10142 (96)
+Right_Putamen (51): linear fit = 1.00 x + 0.0 (2513 voxels, overlap=1.001)
+Right_Putamen (51): linear fit = 1.00 x + 0.0 (2513 voxels, peak = 91), gca=91.0
+gca peak = 0.27641 (105)
+mri peak = 0.12578 (105)
+Brain_Stem (16): linear fit = 1.00 x + 0.0 (5116 voxels, overlap=0.983)
+Brain_Stem (16): linear fit = 1.00 x + 0.0 (5116 voxels, peak = 105), gca=105.0
+gca peak = 0.19537 (107)
+mri peak = 0.13881 (110)
+Right_VentralDC (60): linear fit = 1.00 x + 0.0 (1437 voxels, overlap=0.921)
+Right_VentralDC (60): linear fit = 1.00 x + 0.0 (1437 voxels, peak = 107), gca=107.0
+gca peak = 0.16707 (107)
+mri peak = 0.12091 (109)
+Left_VentralDC (28): linear fit = 1.00 x + 0.0 (1445 voxels, overlap=0.956)
+Left_VentralDC (28): linear fit = 1.00 x + 0.0 (1445 voxels, peak = 108), gca=107.5
+gca peak = 0.37567 (32)
+mri peak = 1.00000 (27)
+gca peak = 0.53337 (26)
+mri peak = 0.14334 (27)
+Fourth_Ventricle (15): linear fit = 0.88 x + 0.0 (138 voxels, overlap=0.837)
+Fourth_Ventricle (15): linear fit = 0.88 x + 0.0 (138 voxels, peak = 23), gca=22.8
+gca peak Unknown = 1.00000 ( 0)
+gca peak Left_Inf_Lat_Vent = 0.49105 (46)
+gca peak Third_Ventricle = 0.37567 (32)
+gca peak CSF = 0.22112 (37)
+gca peak Left_Accumbens_area = 0.95444 (84)
+gca peak Left_vessel = 0.92009 (72)
+gca peak Left_choroid_plexus = 0.16417 (56)
+gca peak Right_Inf_Lat_Vent = 0.48284 (45)
+gca peak Right_Accumbens_area = 0.92730 (89)
+gca peak Right_vessel = 0.81418 (74)
+gca peak Right_choroid_plexus = 0.17111 (58)
+gca peak Fifth_Ventricle = 0.84714 (43)
+gca peak WM_hypointensities = 0.31869 (82)
+gca peak non_WM_hypointensities = 0.20112 (61)
+gca peak Optic_Chiasm = 0.77564 (85)
+gca peak Air = 0.62365 ( 2)
+gca peak  = 0.04778 (23)
+gca peak  = 0.21335 (77)
+gca peak  = 0.19451 (104)
+gca peak CC_Posterior = 0.44758 (113)
+gca peak CC_Mid_Posterior = 0.61143 (107)
+gca peak CC_Central = 0.73232 (108)
+gca peak CC_Mid_Anterior = 0.69109 (109)
+gca peak CC_Anterior = 0.21886 (113)
+gca peak  = 0.08567 (44)
+gca peak  = 0.02810 (91)
+not using caudate to estimate GM means
+estimating mean gm scale to be 1.00 x + 0.0
+estimating mean wm scale to be 1.00 x + 0.0
+estimating mean csf scale to be 0.96 x + 0.0
+saving intensity scales to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.label_intensities.txt
+saving sequentially combined intensity scales to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.label_intensities.txt
+36519 gm and wm labels changed (%58 to gray, %42 to white out of all changed labels)
+404 hippocampal voxels changed.
+0 amygdala voxels changed.
+Reclassifying using Gibbs Priors
+pass 1: 387276 changed. image ll: -3.923, PF=1.000
+pass 2: 118224 changed. image ll: -3.915, PF=1.000
+pass 3: 80312 changed.
+pass 4: 60643 changed.
+pass 5: 48239 changed.
+pass 6: 39492 changed.
+pass 7: 32780 changed.
+pass 8: 27917 changed.
+pass 9: 24350 changed.
+pass 10: 21785 changed.
+pass 11: 19731 changed.
+pass 12: 18110 changed.
+pass 13: 16719 changed.
+pass 14: 15666 changed.
+pass 15: 14655 changed.
+pass 16: 13849 changed.
+pass 17: 13113 changed.
+pass 18: 12376 changed.
+pass 19: 11783 changed.
+pass 20: 11377 changed.
+pass 21: 10726 changed.
+pass 22: 10174 changed.
+pass 23: 9607 changed.
+pass 24: 9087 changed.
+pass 25: 8379 changed.
+pass 26: 7822 changed.
+pass 27: 7429 changed.
+pass 28: 6945 changed.
+pass 29: 6671 changed.
+pass 30: 6223 changed.
+pass 31: 5869 changed.
+pass 32: 5584 changed.
+pass 33: 5293 changed.
+pass 34: 4997 changed.
+ !!!!!!!!! ventricle segment 4 with volume 4179 above threshold 100 - not erasing !!!!!!!!!!
+ !!!!!!!!! ventricle segment 1 with volume 4116 above threshold 100 - not erasing !!!!!!!!!!
+writing labeled volume to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh
+mri_ca_label utimesec    1211.156611
+mri_ca_label stimesec    6.789860
+mri_ca_label ru_maxrss   1722253312
+mri_ca_label ru_ixrss    0
+mri_ca_label ru_idrss    0
+mri_ca_label ru_isrss    0
+mri_ca_label ru_minflt   1358004
+mri_ca_label ru_majflt   43
+mri_ca_label ru_nswap    0
+mri_ca_label ru_inblock  0
+mri_ca_label ru_oublock  0
+mri_ca_label ru_msgsnd   0
+mri_ca_label ru_msgrcv   0
+mri_ca_label ru_nsignals 0
+mri_ca_label ru_nvcsw    35
+mri_ca_label ru_nivcsw   802704
+mri_ca_label took 21 minutes and 50 seconds.
+mri_ca_label done
+mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh --replaceonly 3 257 --replaceonly 42 257 --replaceonly 2 257 --replaceonly 41 257
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh --replaceonly 3 257 --replaceonly 42 257 --replaceonly 2 257 --replaceonly 41 257 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh
+Binarizing based on threshold
+min        -infinity
+max        +infinity
+binval        1
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Replacing 4 and propagating source list
+ 1:     3  257
+ 2:    42  257
+ 3:     2  257
+ 4:    41  257
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh
+mri_binarize done
+mergeseg --src /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh --merge /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh
+Mon Jul 14 13:38:30 CEST 2025
+
+setenv SUBJECTS_DIR /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/mergeseg --src /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh --merge /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+FreeSurferEnv.csh 7.4.1
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_binarize --i /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz --inv --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/not.mergeseg.mgh --min 0.5
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz --inv --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/not.mergeseg.mgh --min 0.5 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/not.mergeseg.mgh
+Binarizing based on threshold
+min        0.5
+max        +infinity
+binval        0
+binvalnot     1
+fstart = 0, fend = 0, nframes = 1
+Found 1030793 values in range
+Counting number of voxels in first frame
+Found 1030792 voxels in final mask
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/not.mergeseg.mgh
+Count: 1030792 1030792.000000 16777216 6.143999
+mri_binarize done
+mri_mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg2.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/not.mergeseg.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/srcsegnotmerge.mgh
+DoAbs = 0
+maskval=0, outval=0
+Writing masked volume to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/srcsegnotmerge.mgh...done.
+fscalc /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz sum /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/srcsegnotmerge.mgh -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh
+Mon Jul 14 13:38:36 CEST 2025
+
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/fscalc /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz sum /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/srcsegnotmerge.mgh -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_convert /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh
+mri_convert /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh 
+reading from /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/aparc+aseg.mgz...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+writing to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh...
+----------------------
+mris_calc -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh add /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.nBhqjg/srcsegnotmerge.mgh
+----------------------
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh 
+reading from /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.2IqRgq/tmp.mgh...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+writing to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh...
+ 
+Started at Mon Jul 14 13:38:30 CEST 2025 
+Ended   at Mon Jul 14 13:38:44 CEST 2025
+Mergeseg-Run-Time-Sec 13
+Mergeseg-Run-Time-Hours 0.00
+ 
+mergeseg Done
+mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh --match 174 --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh --binval 174
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh --match 174 --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh --binval 174 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh
+Binarizing based on matching values
+nMatch 1
+ 0   174
+binval        174
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Found 10438 values in range
+Counting number of voxels in first frame
+Found 10437 voxels in final mask
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh
+Count: 10437 10437.000000 16777216 0.062209
+mri_binarize done
+mergeseg --src /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh --merge /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh
+Mon Jul 14 13:38:47 CEST 2025
+
+setenv SUBJECTS_DIR /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/mergeseg --src /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh --merge /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+FreeSurferEnv.csh 7.4.1
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh --inv --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/not.mergeseg.mgh --min 0.5
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh --inv --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/not.mergeseg.mgh --min 0.5 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/not.mergeseg.mgh
+Binarizing based on threshold
+min        0.5
+max        +infinity
+binval        0
+binvalnot     1
+fstart = 0, fend = 0, nframes = 1
+Found 10438 values in range
+Counting number of voxels in first frame
+Found 10437 voxels in final mask
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/not.mergeseg.mgh
+Count: 10437 10437.000000 16777216 0.062209
+mri_binarize done
+mri_mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/not.mergeseg.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/srcsegnotmerge.mgh
+DoAbs = 0
+maskval=0, outval=0
+Writing masked volume to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/srcsegnotmerge.mgh...done.
+fscalc /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh sum /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/srcsegnotmerge.mgh -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh
+Mon Jul 14 13:38:52 CEST 2025
+
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/fscalc /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh sum /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/srcsegnotmerge.mgh -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh 
+reading from /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/pons.mgh...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+writing to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh...
+----------------------
+mris_calc -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh add /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.e47E3a/srcsegnotmerge.mgh
+----------------------
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh 
+reading from /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.HIApNW/tmp.mgh...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+writing to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh...
+ 
+Started at Mon Jul 14 13:38:47 CEST 2025 
+Ended   at Mon Jul 14 13:38:59 CEST 2025
+Mergeseg-Run-Time-Sec 12
+Mergeseg-Run-Time-Hours 0.00
+ 
+mergeseg Done
+mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh --match 172 --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh --binval 172
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh --match 172 --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh --binval 172 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg1.mgh
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh
+Binarizing based on matching values
+nMatch 1
+ 0   172
+binval        172
+binvalnot     0
+fstart = 0, fend = 0, nframes = 1
+Found 2203 values in range
+Counting number of voxels in first frame
+Found 2202 voxels in final mask
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh
+Count: 2202 2202.000000 16777216 0.013125
+mri_binarize done
+mergeseg --src /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh --merge /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh
+Mon Jul 14 13:39:02 CEST 2025
+
+setenv SUBJECTS_DIR /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/mergeseg --src /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh --merge /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+FreeSurferEnv.csh 7.4.1
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh --inv --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/not.mergeseg.mgh --min 0.5
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh --inv --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/not.mergeseg.mgh --min 0.5 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/not.mergeseg.mgh
+Binarizing based on threshold
+min        0.5
+max        +infinity
+binval        0
+binvalnot     1
+fstart = 0, fend = 0, nframes = 1
+Found 2203 values in range
+Counting number of voxels in first frame
+Found 2202 voxels in final mask
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/not.mergeseg.mgh
+Count: 2202 2202.000000 16777216 0.013125
+mri_binarize done
+mri_mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3b.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/not.mergeseg.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/srcsegnotmerge.mgh
+DoAbs = 0
+maskval=0, outval=0
+Writing masked volume to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/srcsegnotmerge.mgh...done.
+fscalc /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh sum /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/srcsegnotmerge.mgh -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh
+Mon Jul 14 13:39:07 CEST 2025
+
+cd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+/Applications/freesurfer/7.4.1/bin/fscalc /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh sum /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/srcsegnotmerge.mgh -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh
+
+freesurfer-macOS-darwin_x86_64-7.4.1-20230614-7eb8460
+Darwin martinnoergaard.local 24.5.0 Darwin Kernel Version 24.5.0: Tue Apr 22 19:54:49 PDT 2025; root:xnu-11417.121.6~2/RELEASE_ARM64_T6000 arm64
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh 
+reading from /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/vermis.mgh...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+writing to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh...
+----------------------
+mris_calc -o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh add /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T/tmp.qdOyRm/tmp.vzgvQ4/srcsegnotmerge.mgh
+----------------------
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh
+mri_convert /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh 
+reading from /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/tmp.FsD1aA/tmp.mgh...
+TR=1000.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, -2.79397e-09, -1.86265e-09)
+j_ras = (1.86265e-09, 0, -1)
+k_ras = (0, 1, 0)
+writing to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh...
+ 
+Started at Mon Jul 14 13:39:02 CEST 2025 
+Ended   at Mon Jul 14 13:39:14 CEST 2025
+Mergeseg-Run-Time-Sec 12
+Mergeseg-Run-Time-Hours 0.00
+ 
+mergeseg Done
+mri_seghead --invol /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz --outvol /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz --fill 1 --thresh1 20 --thresh2 20 --nhitsmin 2
+input volume:  /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz
+output volume: /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz
+threshold1:    20
+threshold2:    20
+nhitsmin:      2
+fill value:    1
+Loading input volume
+Changing type, rescale = 0, fhi=0.999
+Filling Columns
+Filling Rows
+Filling Slices
+Merging
+nhits = 3873360
+Removing islands
+MRIremoveVolumeIslands() thresh=0.5, nKeep=1, nclusters = 41
+Counting
+N Head Voxels = 3873230
+N Back Voxels = 12903986
+Avg. Back Intensity = 1.022857
+Max. Back Intensity = 152.000000
+Writing output
+Done
+mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg4.mgh --replaceonly 0 258 --mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz
+
+7.4.1
+cwd /Users/martinnorgaard/Dropbox/Mac/Documents/GitHub/petprep/work/petprep_25_0_wf/sub_01_wf/pet_ses_baseline_wf/pet_fit_wf/pet_gtm_seg_wf/run_gtm
+cmdline mri_binarize --i /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh --o /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg4.mgh --replaceonly 0 258 --mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+
+input      /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg3c.mgh
+frame      0
+nErode3d   0
+nErode2d   0
+output     /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg4.mgh
+Binarizing based on threshold
+min        -infinity
+max        +infinity
+binval        1
+binvalnot     0
+mask       /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz
+maskthresh 0.500000
+Loading mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz
+fstart = 0, fend = 0, nframes = 1
+Replacing 1 and propagating source list
+ 1:     0  258
+Writing output to /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg4.mgh
+mri_binarize done
+mri_mask /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seg4.mgh /var/folders/0d/tx6_gy7951749z57rjjkkl_m0000gn/T//tmp.qdOyRm/seghead.mgz /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/apas+head.mgz
+DoAbs = 0
+maskval=0, outval=0
+Writing masked volume to /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/apas+head.mgz...done.
+mri_segstats --seg /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/apas+head.mgz --sum /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/stats/apas+head.stats --pv /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz --empty --brainmask /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/brainmask.mgz --in-intensity-name nu --in /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz --in-intensity-units MR --etiv --ctab /Applications/freesurfer/7.4.1/FreeSurferColorLUT.txt --subject sub-01 --id 2 41 4 5 14 15 43 44 130 165 257 258 --id 172 --id 174
+
+7.4.1
+cwd 
+cmdline mri_segstats --seg /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/apas+head.mgz --sum /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/stats/apas+head.stats --pv /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz --empty --brainmask /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/brainmask.mgz --in-intensity-name nu --in /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz --in-intensity-units MR --etiv --ctab /Applications/freesurfer/7.4.1/FreeSurferColorLUT.txt --subject sub-01 --id 2 41 4 5 14 15 43 44 130 165 257 258 --id 172 --id 174 
+sysname  Darwin
+hostname martinnoergaard.local
+machine  x86_64
+user     martinnorgaard
+whitesurfname  white
+UseRobust  0
+atlas_icv (eTIV) = 1243990 mm^3    (det: 1.566014 )
+Loading /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/apas+head.mgz
+Loading /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz
+Loading /Users/martinnorgaard/Desktop/ses-baseline/test_data/derivatives/freesurfer/sub-01/mri/nu.mgz
+Voxel Volume is 1 mm^3
+Generating list of segmentation ids
+Found  14 segmentations
+Computing statistics for each segmentation
+
+Reporting on  14 segmentations
+Using PrintSegStat
+mri_segstats done
+ 
+Started at Mon Jul 14 13:16:35 CEST 2025 
+Ended   at Mon Jul 14 13:42:13 CEST 2025
+Xcerebralseg-Run-Time-Sec 1538
+Xcerebralseg-Run-Time-Hours 0.43
+ 
+xcerebralseg Done
